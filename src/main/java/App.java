@@ -1,10 +1,6 @@
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Iterator;
-import java.util.List;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
-
+/**
+ * Small application to find queried keywords in the text and highlight those.
+ */
 public class App {
     private static final String USAGE_STRING =
             "usage: App input_text keyword_1 [keyword_2 ... ]\n" +

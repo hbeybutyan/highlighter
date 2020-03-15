@@ -3,11 +3,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Highlighter {
-    private static final String OPENING_BRAKE = "<br>";
-    private static final String CLOSING_BRAKE = "<\\br>";
+    private static final String OPENING_BRAKE = "<b>";
+    private static final String CLOSING_BRAKE = "</b>";
 
     /**
-     * Highlights found keywords in the text by surrounding matches with <br><\br>
+     * Highlights found keywords in the text by surrounding matches with <b></b>
      * @param args - An array which consists of input text as first element and the keywords to search.
      * @return decorated text with highlighted matched keywords
      */
