@@ -23,5 +23,5 @@ mvn package
 
 Run highlighter with:
 ```
-java -jar ./target/highlighter-1.0-SNAPSHOT.jar "input_text" "keyword_1" \["keyword_2" ... \]
+java -jar ./target/highlighter-1.0-SNAPSHOT.jar "input_text" "keyword_1" ["keyword_2" ... ]
 ```
